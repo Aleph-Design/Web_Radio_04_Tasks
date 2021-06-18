@@ -1,0 +1,987 @@
+aQL4`áÁ0,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:10124
+load:0x40080400,len:5828
+entry 0x400806a8
+
+Free heap: 330400
+
+Radio Station index from Preferences: 0
+
+2. getCurrentRadioIndex: 0
+
+Connect to SSID: H369AAF9760
+.....
+========================================
+WiFi connected to IPaddress: 192.168.2.62
+
+
+Currently playing radio station: 0
+
+Connecting to host: icecast.omroep.nl
+Connect to host: "icecast.omroep.nl" at port: "80" OK!
+
+Requested path: /radio1-bb-mp3
+Send the request to the server: 
+
+
+Wait for the connection to establish:
+...................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+
+Permanently read stream data from the server
+
+
+1. >>>>> wClient.connected: 1
+
+>>>>> wClient available: 1
+
+"populateMusicQueue()" runs on core: 1
+
+1. HighWater: 191
+
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128Guru Meditation Error: Core  1 panic'ed (Unhandled debug exception)
+Debug exception reason: Stack canary watchpoint triggered (Populate Music ) 
+Core 1 register dump:
+PC      : 0x40086ddc  PS      : 0x00060736  A0      : 0x3ffce0e0  A1      : 0x3ffce020  
+A2      : 0x3ff000e0  A3      : 0x00000001  A4      : 0x3ffbfa88  A5      : 0x00000001  
+A6      : 0x00060523  A7      : 0x00000000  A8      : 0x80085392  A9      : 0x3ffce0c0  
+A10     : 0x00000000  A11     : 0x3ffce494  A12     : 0x00000001  A13     : 0x00000001  
+A14     : 0x00060520  A15     : 0x00000000  SAR     : 0x00000019  EXCCAUSE: 0x00000001  
+EXCVADDR: 0x00000000  LBEG    : 0x4000c2e0  LEND    : 0x4000c2f6  LCOUNT  : 0xffffffff  
+
+ELF file SHA256: 0000000000000000
+
+Backtrace: 0x40086ddc:0x3ffce020 0x3ffce0dd:0x3ffce100 0x40089611:0x3ffce120 0x40119c45:0x3ffce160 0x4011a70f:0x3ffce180 0x40119f8d:0x3ffce1b0 0x4011a421:0x3ffce1d0 0x40110c1b:0x3ffce210 0x401116b5:0x3ffce290 0x4011172a:0x3ffce2c0 0x400d0d21:0x3ffce2e0 0x400d0d9d:0x3ffce300 0x400d10e9:0x3ffce320 0x400d0a48:0x3ffce350 0x400897ca:0x3ffce400
+
+Rebooting...
+ets Jun  8 2016 00:22:57
+
+rst:0xc (SW_CPU_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:10124
+load:0x40080400,len:5828
+entry 0x400806a8
+
+Free heap: 330400
+
+Radio Station index from Preferences: 0
+
+2. getCurrentRadioIndex: 0
+
+Connect to SSID: H369AAF9760
+.....
+========================================
+WiFi connected to IPaddress: 192.168.2.62
+
+
+Currently playing radio station: 0
+
+Connecting to host: icecast.omroep.nl
+Connect to host: "icecast.omroep.nl" at port: "80" OK!
+
+Requested path: /radio1-bb-mp3
+Send the request to the server: 
+
+
+Wait for the connection to establish:
+..............................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+
+Permanently read stream data from the server
+
+
+1. >>>>> wClient.connected: 1
+
+>>>>> wClient available: 1
+
+"populateMusicQueue()" runs on core: 1
+
+1. HighWater: 183
+
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 112Œ …Ñ‡Ç­}‘ÉÙé0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:10124
+load:0x40080400,len:5828
+entry 0x400806a8
+
+Free heap: 330400
+
+Radio Station index from Preferences: 0
+
+2. getCurrentRadioIndex: 0
+
+Connect to SSID: H369AAF9760
+.....
+========================================
+WiFi connected to IPaddress: 192.168.2.62
+
+
+Currently playing radio station: 0
+
+Connecting to host: icecast.omroep.nl
+Connect to host: "icecast.omroep.nl" at port: "80" OK!
+
+Requested path: /radio1-bb-mp3
+Send the request to the server: 
+
+
+Wait for the connection to establish:
+.....................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................................
+
+Permanently read stream data from the server
+
+
+1. >>>>> wClient.connected: 1
+
+>>>>> wClient available: 1
+
+"populateMusicQueue()" runs on core: 1
+
+1. HighWater: 183
+
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 128
+Bytes read: 112
